@@ -23,6 +23,10 @@ while principal > 0:
     if months_needed >= extra_payment_start_month and months_needed <= extra_payment_end_month:
         principal=principal-extra_payment
         total_paid=total_paid+extra_payment
+    
+    if principal<0:
+        total_paid=total_paid+principal
+        principal=0
 
     print(months_needed, round(total_paid,2), round(principal,2))
     
