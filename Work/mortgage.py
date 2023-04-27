@@ -28,7 +28,9 @@ while principal > 0:
         total_paid=total_paid+principal
         principal=0
 
-    print(months_needed, round(total_paid,2), round(principal,2))
-    
-print("Total Paid",round(total_paid))
-print("Months",months_needed)
+    print(f'{months_needed} Months pass, ${total_paid:0.2f} Paid ${principal:0.2f} left')
+
+print(f'{total_paid:0.2f}')    
+print(f"Total Paid is {total_paid:0.2f}")
+print(f"In {months_needed} Months")
+print(f'Years Pass {months_needed/12:0.0f}')
