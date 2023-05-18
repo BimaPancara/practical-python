@@ -147,3 +147,12 @@ Bug reports are appreciated and may be filed through the
 [issue tracker](https://github.com/dabeaz-course/practical-python/issues).
 Pull requests are not accepted except by invitation. Please file an issue first.
 
+## Extra Explanation
+
+This fork is under BimaPancara, it is used as both practice and new sources of learning
+aside from what I learned in College.
+As of 18 May 2023 this course is still being worked on.
+I hope that as a student of Telecommunication Engineering
+I may be able to apply what I learned in here.
+
+Sign, BimaPancara
